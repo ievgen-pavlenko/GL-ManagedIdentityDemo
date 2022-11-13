@@ -1,0 +1,14 @@
+[*.cs]
+
+# CS8618: Non nullable field _name is not initialized. Consider declare the field as nullable type
+dotnet_diagnostic.CS8618.severity = none
+
+# CS8602: Dereference of a possibly null reference
+dotnet_diagnostic.CS8602.severity = none
+
+# CS8603: Possible null reference return.
+dotnet_diagnostic.CS8603.severity = none
+
+# CS8604: Possible null reference argument for parameter.
+dotnet_diagnostic.CS8604.severity = none
+
